@@ -51,7 +51,7 @@ const pages = [
   {
     id: 8,
     title: "Prepared By",
-    body: `Mr.Allah Rakha.`,
+    body: `Mr.Allah Rakha`,
     images: ''
   }
 ];
