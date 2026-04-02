@@ -46,7 +46,13 @@ const pages = [
     id: 7,
     title: "Forever Grateful",
     body: `Some journeys end… but the memories, the people, and the feelings stay forever.`,
-    images: [""]
+    images: ''
+  },
+  {
+    id: 8,
+    title: "Prepared By",
+    body: `Mr.Allah Rakha.`,
+    images: ''
   }
 ];
 
@@ -137,7 +143,7 @@ export default function App() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-3xl font-bold z-10"
         >
-          مرر للأسفل لاكتشاف القصة ↓
+         Scroll down to discover the story ↓
         </motion.h1>
       </section>
 
@@ -203,7 +209,7 @@ export default function App() {
                       <img
                         src={page.images[0]}
                         alt="memory"
-                        className="w-full h-40 md:h-64 object-cover rounded-md shadow-md sepia-[0.3]"
+                        className="w-full h-50 md:h-64 object-cover rounded-md shadow-md sepia-[0.3]"
                       />
                     </div>
                   )}
@@ -277,14 +283,14 @@ export default function App() {
           })}
         </div>
         {!allVisited ? (
-          <p className="text-lg">📖 أكمل قراءة جميع الصفحات لفتح الهدية</p>
+          <p className="text-lg">📖 Read all the pages to unlock the gift</p>
         ) : (
           <div className="flex flex-col items-center">
 
             {/* Hint before opening */}
             {!giftOpened && (
               <p className="text-sm mb-4 opacity-70 animate-pulse text-center">
-                👇 اضغط على الهدية لفتح المفاجأة
+                👇 Click on the gift to unlock the surprise
               </p>
             )}
 
