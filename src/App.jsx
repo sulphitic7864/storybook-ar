@@ -186,7 +186,7 @@ export default function App() {
               <div
                 key={page.id}
                 className="bg-[#f4e4bc] relative flex flex-col items-center p-6 md:p-12 shadow-inner border-l border-black/10"
-                dir="rtl"
+                dir="ltr"
               >
                 {/* Header Badge from your design */}
                 {/* <div className="absolute top-4 right-4 md:top-8 md:right-8 bg-[#fffcf5] border border-[#e2d2b1] px-4 py-1 rounded-full shadow-sm text-xs md:text-sm text-[#8a7a5a]">
